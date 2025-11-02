@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/nen"
+    tools:context=".Setting">
+
+    <!-- Phần nội dung chính có thể cuộn -->
+    <ScrollView
+        android:id="@+id/scrollView_setting"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/layoyt_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="Cài Đặt "
+                android:textAlignment="center"
+                android:textColor="#8E6565"
+                android:textStyle="bold"
+                android:textSize="34sp" />
+
+            <!-- Các layout cài đặt -->
+            <LinearLayout
+                android:id="@+id/layout_security"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/dinhdanglinear"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="🛡️Chính sách bảo mật "
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_nen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/dinhdanglinear"
+                android:orientation="horizontal">
+
+                <ToggleButton
+                    android:id="@+id/toggleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:textOff="☀️ Sáng"
+                    android:textOn="🌙 Tối"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/dinhdanglinear"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/layout_inf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ℹ️Thông tin trợ giúp"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textViewinf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Nếu có bất ký thắc mắc nào xin hãy liên hệ với chúng tôi qua email:nhom7@gmail.com \n Hoặc fanpage:nhom6.com
+                    \nChúng tôi xin chân thành cảm ơn bạn vì đã sử dụng ứng  dụng của chúng tôi."
+                    android:textColor="#8E6565"
+                    android:textSize="20sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout_reset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="20dp"
+                android:background="@drawable/dinhdanglinear"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="🔁 Reset All"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollview_security"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnql"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    app:srcCompat="@drawable/ql" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:text="🛡️Chính sách bảo mật "
+                    android:textColor="#8E6565"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Công ty hiểu rằng, khách hàng, khách truy cập, người dùng và những người khác, những người đang sử dụng các trang web thuộc sở hữu/ được điều hành bởi chúng tôi đều coi trọng quyền riêng tư.\n
+ Xin vui lòng đọc bản chính sách bảo mật dưới đây để hiểu hơn những cam kết mà chúng tôi thực hiện nhằm tôn trọng và bảo vệ quyền lợi của bạn.\n
+ Chính sách bảo mật sẽ giải thích cách chúng tôi tiếp nhận, sử dụng và (trong trường hợp nào đó) tiết lộ thông tin cá nhân của bạn. Chính sách cũng sẽ giải thích các bước chúng tôi thực hiện để bảo mật thông tin cá nhân của khách hàng. Cuối cùng, chính sách bảo mật sẽ giải thích quyền lựa chọn của bạn về việc thu thập, sử dụng và tiết lộ thông tin cá nhân của mình.\n
+ Chính sách bảo mật thông tin này được tích hợp và là một phần không tách rời cùng với các điều khoản và Văn bản thỏa thuận sử dụng theo các chính sách của chúng tôi được đăng tải trên trang web này. Khi bạn truy cập và sử dụng trang web này (bao gồm cả việc đăng ký dịch vụ trực tuyến), chúng tôi hiểu rằng bạn đồng ý với nội dung của chính sách bảo mật thông tin này và những chính sách có liên quan khác trên website này.\n
+ Người dùng lưu ý thường xuyên kiểm tra lại để có các bản cập nhật cho Chính sách bảo mật thông tin cá nhân này. Vui lòng xem mục số 9 để nắm rõ thông tin.\n
+1. Thông tin cá nhân\n
+ Tất cả nội dung bạn xem được trên trang web nhằm phục vụ nhu cầu thông tin của bạn và giúp bạn lựa chọn dịch vụ. Vì thế, bạn được sử dụng trang web mà không cần cung cấp bất kỳ thông tin cá nhân nào. Tuy nhiên, trong một số trường hợp, khi liên quan đến việc đăng ký dịch vụ, chúng tôi có thể yêu cầu bạn cung cấp thông tin cá nhân.
+ Trong chính sách bảo mật này, thông tin cá nhân được hiểu bao gồm tên của bạn, tên người dùng, địa chỉ, địa chỉ email, số điện thoại, ảnh đại diện hay bất kỳ thông tin cá nhân nào khác mà bạn cung cấp, hoặc bất kỳ thông tin nào về bạn được thu thập theo chính sách của chúng tôi phù hợp với quy định của pháp luật hiện hành.\n
+
+2. Thu thập thông tin người dùng\n
+2.1 Thông tin do Người dùng cung cấp khi truy cập hoặc sử dụng sản phẩm, dịch vụ trên trang web của chúng tôi\n
+ Một số Dịch vụ của chúng tôi yêu cầu người dùng tạo tài khoản hoặc hồ sơ. Để kết nối sử dụng các Dịch vụ này, chúng tôi có thể yêu cầu bạn cung cấp thông tin nhất định về chính bản thân bạn để thiết lập tài khoản hoặc hồ sơ.\n
+ Khi cung cấp thông tin cho chúng tôi qua trang web này, bạn hiểu rõ và chấp thuận việc thu thập, sử dụng và tiết lộ những thông tin cá nhân theo những điều khoản và điều kiện của chính sách bảo mật thông tin này.\n
+ Bạn hoàn toàn đồng ý và chấp thuận rằng những thông tin cá nhân bạn cung cấp trên trang web có thể được bảo lưu tại trụ sở hay văn phòng của chúng tôi, hoặc/ và thông tin cá nhân có thể được lưu trữ tại một số máy chủ hiện có hay chưa biết trước cho mục đích vận hành và phát triển trang web cũng như các dịch vụ của chúng tôi.\n
+Nếu bạn đặt hàng một sản phẩm, yêu cầu một dịch vụ hoặc gởi thư phản hồi lên trang web, chúng tôi có thể liên hệ với bạn để yêu cầu bạn bổ sung thêm những thông tin cần thiết cho việc xử lý hoặc hoàn thành đơn đặt hàng và / hoặc yêu cầu của bạn.\n
+
+2.2 Thông tin mà chúng tôi thu thập trong quá trình bạn sử dụng dịch vụ\n
+ Chúng tôi thu thập thông tin về các dịch vụ mà bạn sử dụng và cách sử dụng của bạn. Thông tin này bao gồm:\n
+•	Thông tin nhật ký đăng nhập - chẳng hạn như thời gian và thời lượng bạn sử dụng Dịch vụ, cụm từ truy vấn tìm kiếm bạn nhập thông qua các Dịch vụ và bất kỳ thông tin nào khác được lưu trữ trong cookie mà chúng tôi đã đặt trên thiết bị của bạn.\n
+•	Thông tin khác - về việc bạn sử dụng Dịch vụ, chẳng hạn như các ứng dụng bạn sử dụng, trang web bạn truy cập và cách bạn tương tác với nội dung được cung cấp thông qua Dịch vụ.\n
+ Những thông tin của người dùng do chúng tôi thu thập sẽ được sử dụng, lưu trữ, bảo mật như những thông tin do Người dùng tự cung cấp theo những quy định tại Mục 2.1 của chính sách bảo mật này và quy định của pháp luật có liên quan.\n
+
+3. Sử dụng thông tin Người dùng\n
+ Chúng tôi sử dụng thông tin cá nhân của bạn cho những mục đích sau:\n
+•	Xác minh danh tính của người sử dụng sản phẩm, dịch vụ; Liên hệ trao đổi với người dùng thông tin về sản phẩm, dịch vụ mà trang web chúng tôi cung cấp.\n
+•	Gửi thông tin cho bạn về chính sách, dịch vụ của chúng tôi cũng như những thay đổi về chính sách, dịch vụ hay thông tin khuyến mại;\n
+•      Thực hiện giao dịch thanh toán, gửi các thông báo trong quá trình giao dịch, xác nhận thanh toán;\n
+•	Cung cấp các dịch vụ hỗ trợ và chăm sóc khách hàng. Nâng cấp dịch vụ của chúng tôi; Xử lý khiếu nại, thu phí, giải quyết sự cố, tranh chấp, khiếu nại phát sinh;\n
+•	Cho phép bạn sử dụng thông tin cá nhân liên hệ và được liên hệ với những người dùng khác thông qua các trang web, trang web có liên quan cho phép.\n
+•	Sử dụng thông tin cá nhân của bạn cho mục đích kinh doanh của chúng tôi, như phân tích và quản lý các hoạt động kinh doanh, nghiên cứu thị trường, kiểm tra, phát triển các sản phẩm, dịch vụ của chúng tôi, xác định các xu hướng sử dụng, xác định hiệu quả chiến lược quảng cáo, khuyến mại, kết quả thử nghiệm sản phẩm, dịch vụ và những mục đích kinh doanh khác phù hợp với quy định của pháp luật hiện hành.\n
+•	Chúng tôi có thể liên kết với một số đơn vị khác – đối tác của chúng tôi để cung cấp sản phẩm hay dịch vụ cho bạn. Lúc đó, chúng tôi cần và sẽ trao đổi, cung cấp thông tin cá nhân của bạn đến các đơn vị này để họ hoàn thành yêu cầu của bạn. Những đơn vị này cũng không được phép sử dụng thông tin cá nhân của bạn cho các mục đích khác và tuân theo quy định bảo mật khi tiến hành cung cấp sản phẩm, dịch vụ cho bạn. Việc sử dụng thông tin cá nhân người dùng bởi các đối tác đó không thuộc phạm vi kiểm soát của chúng tôi và chúng tôi sẽ không chịu trách nhiệm trong trường hợp này.\n
+
+4. Lưu trữ thông tin cá nhân\n
+ Thông tin cá nhân của bạn sẽ được chúng tôi lưu trữ tại:\n
+•	Chúng tôi lưu trữ và xử lý thông tin cá nhân của bạn tại các máy chủ đặt tại các trung tâm dữ liệu trên lãnh thổ Việt Nam của chúng tôi.\n
+•	Thông tin cá nhân của bạn cũng có thể được lưu trữ tại trụ sở chính hoặc văn phòng làm việc của chúng tôi hay tại bất kỳ cơ sở sao lưu dữ liệu nào khác của chúng tôi tại từng thời điểm;n
+•	Thời gian lưu trữ thông tin cá nhân được thực hiện theo quy định của pháp luật và mục đích lưu trữ dữ liệu của chúng tôi."
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--  Menu cố định ở cuối màn hình -->
+    <LinearLayout
+        android:id="@+id/menuContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:paddingTop="5dp"
+        android:background="@color/white">
+    </LinearLayout>
+
+</LinearLayout>

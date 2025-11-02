@@ -1,0 +1,260 @@
+[
+{
+  "question_number": "Câu 528",
+  "question": "Các xe đi như thế nào là đúng quy tắc giao thông? (Cảnh sát giao thông giang tay)",
+  "options": [
+    "Các xe ở phía tay phải và tay trái của người điều khiển được phép đi thẳng.",
+    "Cho phép các xe ở mọi hướng được rẽ phải.",
+    "Tất cả các xe phải dừng lại trước ngã tư, trừ những xe đã ở trong ngã tư được phép tiếp tục đi."
+  ],
+  "correct_answer": "Các xe ở phía tay phải và tay trái của người điều khiển được phép đi thẳng.",
+  "explanation": "Cảnh sát giang tay ngang: Xe ở phía trước và phía sau phải dừng lại. Xe ở bên phải và bên trái được đi thẳng và rẽ phải.",
+  "category": "Xử lý tình huống giao thông (Sa hình)",
+  "image": "c528.png"
+},
+  {
+    "question_number": "Câu 529",
+    "question": "Theo hướng mũi tên, xe nào được phép đi? (Cảnh sát giao thông giơ tay thẳng đứng)",
+    "options": [
+      "Mô tô, xe con.",
+      "Xe con, xe tải.",
+      "Mô tô, xe tải.",
+      "Cả ba xe."
+    ],
+    "correct_answer": "Cả ba xe.",
+    "explanation": "Cảnh sát giơ tay thẳng đứng: Tất cả các xe phải dừng lại, trừ những xe đã ở trong khu vực giao nhau được phép tiếp tục đi.",
+    "category": "Xử lý tình huống giao thông (Sa hình)",
+    "image": "c529.png"
+  },
+  {
+    "question_number": "Câu 538",
+    "question": "Trong hình dưới đây, xe nào chấp hành đúng quy tắc giao thông?",
+    "options": [
+      "Chỉ xe khách, mô tô.",
+      "Tất cả các loại xe trên.",
+      "Không xe nào chấp hành đúng quy tắc giao thông."
+    ],
+    "correct_answer": "Tất cả các loại xe trên.",
+    "explanation": "Xe khách: Rẽ trái, đèn xanh. Xe tải: Đi thẳng, đèn xanh. Xe con: Đi thẳng, đèn xanh. Mô tô: Rẽ phải, đèn xanh. (Giả định tất cả đều đúng luật).",
+    "category": "Xử lý tình huống giao thông (Sa hình)",
+    "image": "c538.png"
+  },
+  {
+    "question_number": "Câu 539",
+    "question": "Theo hướng mũi tên, những hướng nào xe mô tô được phép đi? (Biển cấm mô tô)",
+    "options": [
+      "Cả ba hướng.",
+      "Hướng 1 và 2.",
+      "Hướng 1 và 3.",
+      "Hướng 2 và 3."
+    ],
+    "correct_answer": "Hướng 1 và 3.",
+    "explanation": "Biển cấm mô tô chỉ cấm hướng 2. Hướng 1 và 3 không bị cấm.",
+    "category": "Xử lý tình huống giao thông (Sa hình)",
+    "image": "c539.png"
+  },
+  {
+    "question_number": "Câu 540",
+    "question": "Trong trường hợp hợp này, thứ tự xe đi như thế nào là đúng quy tắc giao thông?",
+    "options": [
+      "Xe công an, xe quân sự, xe con + mô tô.",
+      "Xe quân sự, xe công an, xe con + mô tô.",
+      "Xe công an, xe quân sự, xe con, mô tô."
+    ],
+    "correct_answer": "Xe công an, xe quân sự, xe con + mô tô.",
+    "explanation": "Xe ưu tiên: Xe quân sự đi thẳng (trước), Xe công an rẽ trái (sau). Thứ tự: Xe công an, Xe quân sự, Xe con + Mô tô (đi cùng).",
+    "category": "Xử lý tình huống giao thông (Sa hình)",
+    "image": "c540.png"
+  },
+  {
+    "question_number": "Câu 543",
+    "question": "Trong hình dưới đây, xe nào vi phạm quy tắc giao thông?",
+    "options": [
+      "Xe con (E), mô tô (C).",
+      "Xe tải (A), mô tô (D).",
+      "Xe khách (B), mô tô (C).",
+      "Xe khách (B), mô tô (D)."
+    ],
+    "correct_answer": "Xe khách (B), mô tô (D).",
+    "explanation": "Xe khách (B) và Mô tô (D) đang đi vào làn đường cấm hoặc sai làn.",
+    "category": "Xử lý tình huống giao thông (Sa hình)",
+    "image": "c543.png"
+  },
+  {
+    "question_number": "Câu 548",
+    "question": "Trong hình dưới đây, những xe nào vi phạm quy tắc giao thông?",
+    "options": [
+      "Xe con (B), mô tô (C).",
+      "Xe con (A), mô tô (C).",
+      "Xe con (E), mô tô (D).",
+      "Tất cả các loại xe trên."
+    ],
+    "correct_answer": "Xe con (E), mô tô (D).",
+    "explanation": "Xe con (E) đi vào làn mô tô và Mô tô (D) đi vào làn xe con (sai làn).",
+    "category": "Xử lý tình huống giao thông (Sa hình)",
+    "image": "c548.png"
+  },
+  {
+    "question_number": "Câu 556",
+    "question": "Bạn có được phép vượt xe mô tô phía trước không?",
+    "options": [
+      "Cho phép.",
+      "Không được phép."
+    ],
+    "correct_answer": "Không được phép.",
+    "explanation": "Không được vượt tại nơi đường giao nhau và có làn đường cho người đi bộ.",
+    "category": "Xử lý tình huống giao thông (Sa hình)",
+    "image": "c556.png"
+  },
+  {
+    "question_number": "Câu 559",
+    "question": "Theo tín hiệu đèn của xe cơ giới, xe nào vi phạm quy tắc giao thông?",
+    "options": [
+      "Xe mô tô.",
+      "Xe con.",
+      "Không xe nào vi phạm.",
+      "Cả hai xe."
+    ],
+    "correct_answer": "Cả hai xe.",
+    "explanation": "Biển hiệu lệnh (Hướng đi thẳng phải theo) bắt buộc phải đi thẳng. Cả xe con (rẽ trái) và mô tô (rẽ phải) đều vi phạm.",
+    "category": "Xử lý tình huống giao thông (Sa hình)",
+    "image": "c559.png"
+  },
+  {
+    "question_number": "Câu 560",
+    "question": "Các xe đi theo mũi tên, xe nào vi phạm quy tắc giao thông?",
+    "options": [
+      "Xe con.",
+      "Xe tải.",
+      "Xe con, xe tải.",
+      "Xe khách, xe tải."
+    ],
+    "correct_answer": "Xe khách, xe tải.",
+    "explanation": "Xe khách và Xe tải rẽ sai làn.",
+    "category": "Xử lý tình huống giao thông (Sa hình)",
+    "image": "c560.png"
+  },
+  {
+    "question_number": "Câu 561",
+    "question": "Các xe đi theo mũi tên, xe nào vi phạm quy tắc giao thông?",
+    "options": [
+      "Xe tải, xe con.",
+      "Xe khách, xe con.",
+      "Xe khách, xe tải.",
+      "Xe tải, xe khách, xe con."
+    ],
+    "correct_answer": "Xe khách, xe tải.",
+    "explanation": "Xe khách và Xe tải rẽ sai làn.",
+    "category": "Xử lý tình huống giao thông (Sa hình)",
+    "image": "c561.png"
+  },
+  {
+    "question_number": "Câu 562",
+    "question": "Các xe đi theo mũi tên, xe nào vi phạm quy tắc giao thông?",
+    "options": [
+      "Xe con, xe tải, xe khách.",
+      "Xe tải, xe khách, xe mô tô.",
+      "Xe khách, xe mô tô, xe con.",
+      "Cả bốn xe."
+    ],
+    "correct_answer": "Xe tải, xe khách, xe mô tô.",
+    "explanation": "Xe tải, Xe khách, Xe mô tô đều vi phạm (rẽ sai làn hoặc vượt đèn đỏ).",
+    "category": "Xử lý tình huống giao thông (Sa hình)",
+    "image": "c562.png"
+  },
+  {
+    "question_number": "Câu 565",
+    "question": "Các xe đi theo mũi tên, xe nào chấp hành đúng quy tắc giao thông?",
+    "options": [
+      "Xe khách, mô tô.",
+      "Xe tải, mô tô.",
+      "Xe khách, xe tải.",
+      "Mô tô, xe con."
+    ],
+    "correct_answer": "Mô tô, xe con.",
+    "explanation": "Xe mô tô và Xe con rẽ đúng làn, đúng tín hiệu đèn.",
+    "category": "Xử lý tình huống giao thông (Sa hình)",
+    "image": "c565.png"
+  },
+  {
+    "question_number": "Câu 567",
+    "question": "Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?",
+    "options": [
+      "Xe của bạn, mô tô, xe con.",
+      "Xe con, xe của bạn, mô tô.",
+      "Mô tô, xe con, xe của bạn.",
+      "Xe con, mô tô, xe của bạn."
+    ],
+    "correct_answer": "Mô tô, xe con, xe của bạn.",
+    "explanation": "Ưu tiên: Rẽ phải (Mô tô), Đi thẳng (Xe con), Rẽ trái (Xe của bạn). Thứ tự: Mô tô, Xe con, Xe của bạn.",
+    "category": "Xử lý tình huống giao thông (Sa hình)",
+    "image": "c567.png"
+  },
+  {
+    "question_number": "Câu 568",
+    "question": "Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?",
+    "options": [
+      "Xe của bạn, mô tô, xe con.",
+      "Xe con, xe của bạn, mô tô.",
+      "Mô tô, xe con, xe của bạn.",
+      "Xe con, mô tô, xe của bạn."
+    ],
+    "correct_answer": "Xe con, mô tô, xe của bạn.",
+    "explanation": "Ưu tiên: Rẽ phải (Xe con), Đi thẳng (Xe của bạn), Rẽ trái (Mô tô). Thứ tự: Xe con, Xe của bạn, Mô tô.",
+    "category": "Xử lý tình huống giao thông (Sa hình)",
+    "image": "c568.png"
+  },
+  {
+    "question_number": "Câu 572",
+    "question": "Bạn xử lý như thế nào trong trường hợp này? (Rẽ phải, gặp xe đạp/xe thô sơ)",
+    "options": [
+      "Tăng tốc độ, rẽ phải trước xe tải và xe đạp.",
+      "Giảm tốc độ, rẽ phải sau xe tải và xe đạp.",
+      "Tăng tốc độ, rẽ phải trước xe đạp."
+    ],
+    "correct_answer": "Giảm tốc độ, rẽ phải sau xe tải và xe đạp.",
+    "explanation": "Phải nhường đường cho xe thô sơ đang đi trên làn đường ưu tiên dành cho xe thô sơ, sau đó rẽ phải sau xe tải và xe đạp.",
+    "category": "Xử lý tình huống giao thông (Sa hình)",
+    "image": "c572.png"
+  },
+  {
+    "question_number": "Câu 592",
+    "question": "Xe nào đúng quy tắc giao thông?",
+    "options": [
+      "Xe con.",
+      "Xe mô tô.",
+      "Cả 2 xe đều sai."
+    ],
+    "correct_answer": "Xe con.",
+    "explanation": "Xe con dừng trước vạch, đúng quy tắc. Xe mô tô chạy vượt vạch (vi phạm).",
+    "category": "Xử lý tình huống giao thông (Sa hình)",
+    "image": "c592.png"
+  },
+  {
+    "question_number": "Câu 596",
+    "question": "Xe của bạn đang di chuyển gần đến khu vực giao cắt với đường sắt, khi rào chắn đang dịch chuyển, bạn điều khiển xe như thế nào là đúng quy tắc giao thông?",
+    "options": [
+      "Quan sát nếu thấy không có tàu thì tăng tốc cho xe vượt qua đường sắt.",
+      "Dừng lại trước rào chắn một khoảng cách an toàn.",
+      "Ra tín hiệu, yêu cầu người gác chắn tàu kéo rào chắn để xe bạn qua.",
+      "Bắt buộc phải dừng xe."
+    ],
+    "correct_answer": "Bắt buộc phải dừng xe.",
+    "explanation": "Khi rào chắn đang dịch chuyển hoặc đã đóng, bắt buộc phải dừng xe an toàn.",
+    "category": "Xử lý tình huống giao thông (Sa hình)",
+    "image": "c596.png"
+  },
+  {
+    "question_number": "Câu 600",
+    "question": "Trong tình huống dưới đây, xe đầu kéo kéo rơ moóc (xe container) đang rẽ phải, xe con màu xanh đi như thế nào để đảm bảo an toàn?",
+    "options": [
+      "Vượt về phía bên phải để đi tiếp.",
+      "Giảm tốc độ chờ xe đầu kéo rẽ phải, rồi tiếp tục đi.",
+      "Vượt về phía bên trái để đi tiếp."
+    ],
+    "correct_answer": "Giảm tốc độ chờ xe đầu kéo rẽ phải, rồi tiếp tục đi.",
+    "explanation": "Phải nhường đường cho xe đầu kéo có kích thước lớn đang thực hiện thao tác rẽ.",
+    "category": "Xử lý tình huống giao thông (Sa hình)",
+    "image": "c600.png"
+  }
+]

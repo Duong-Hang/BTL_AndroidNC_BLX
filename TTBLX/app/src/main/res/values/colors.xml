@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#00BCD4</color>
+    <color name="nen">#b3dcff</color>
+    <color name="menu">#D0CDCD</color>
+    <color name="sai">#FF0000</color>
+    <color name="dung">#339900</color>
+    <color name="xam">#A6A4A4</color>
+    <color name="chu">#8E6565</color>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/nen"
+    android:padding="10dp"
+    tools:context=".thithu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- RecyclerView để hiển thị danh sách câu hỏi -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="CẤU TRÚC ĐỀ THI"
+            android:textColor="#8E6565"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dinhdangmeothi"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="437dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/dinhdangmeothi"
+                android:fillViewport="true"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bao gồm thời gian 19 phút và 25 câu:\n
+     - 07 câu về quy định chung và quy tắc giao thông;\n
+     - 01 câu về quy tắc đối với xe mô tô và xe gắn máy;\n
+     - 01 câu về tình huống mất an toàn giao thông nghiêm trọng(câu diểm liệt);\n
+     - 01 câu về văn hóa và đạo đức người lái xe;\n
+     - 01 câu về làn đường;\n
+     - 08 câu về hệ thống biển báo đường bộ;\n
+     - 06 câu về giải các thế sa hình và kỹ năng xử lý tình huống giao thông.\n
+     ✔️ Để đạt bài thi cần trả lời đúng 21/25 câu và không sai câu điểm liệt.
+    "
+                    android:textSize="20dp" />
+            </ScrollView>
+
+            <Button
+                android:id="@+id/btnstart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/dinhdangbutton"
+                android:text="Bắt đầu thi"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Menu -->
+    <LinearLayout
+        android:id="@+id/menuContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+</LinearLayout>
