@@ -110,7 +110,7 @@ public class QuestionDetailFragment extends Fragment {
         //xu ly hinh anh
         //raw   https://raw.githubusercontent.com/Duong-Hang/BTL_ANDROIDNC/refs/heads/main/TTBLX/anhquestion/c309.PNG
         String image = q.getHinhAnh();
-        String baseUrl = "https://raw.githubusercontent.com/Duong-Hang/BTL_ANDROIDNC/refs/heads/main/TTBLX/anhquestion/";
+        String baseUrl = "https://raw.githubusercontent.com/Duong-Hang/BTL_AndroidNC_BLX/refs/heads/main/TTBLX/anhquestion/";
         String imageUrl = baseUrl + image;
         if (image != null && !image.isEmpty()) {
             imgQuestion.setVisibility(View.VISIBLE);
